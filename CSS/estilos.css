@@ -1,0 +1,151 @@
+*{
+    padding: 0px;
+    margin: 0px;}
+
+#menu {
+    float: left;
+    margin-top: 510px ; /*30px arriba y abajo. auto en los lados para que se centre*/
+    margin-left: 100px;
+    padding-left: 130px;
+    padding-right: 200px;
+    padding-top: 2px;
+    width: 500px;
+    background-color: black;
+    
+}
+
+#menu ul{
+    list-style: none;
+}
+
+.nav > li {
+    position: relative;
+    display: inline-block;
+}
+
+.nav > li > a{
+    text-decoration: none;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    padding: 15px 20px ;
+    display: block;
+}
+
+
+
+.nav li a:hover {
+background-color: #434343}
+
+.subMenu{
+    position: absolute;
+    background: grey;
+    width: 120%;
+
+    /*display: none; /*IMPORTANNTE. HACE QUE ME LO QUITE PARA PODER PONER
+                    EL [:HOVER]  Esto nos lleva a la linea 53, "van juntas"*/
+    visibility: hidden;  /*esto es lo mismo que arriba pero para añadirle transiciones
+                        .Posteriormente nos iriamos a la linea 54 */
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.subMenu li  a{
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav li:hover .subMenu{
+    /*display: block;*/
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
+
+#imagenes .comple{
+
+    position: absolute;
+    width:100%;
+    height: 75%;
+    z-index: 0;
+   
+}
+
+#imagenes .aceite {
+    position: absolute;
+    padding-right: 1px;
+    left: 820px;
+    top: 400px;
+    z-index: 1;
+}
+
+
+#titulo img
+{
+    position: absolute;
+    top: 10%;
+    left: 25%;
+}
+
+#Inicio {
+    float: left;
+    margin-top: 650px;
+    margin-left: -700px;
+}
+
+#Inicio h1{
+    font-family: montez;
+
+}
+#Inicio h1 a{
+    /*margin-bottom: 1000px;*/
+   /* background: green;*/
+   font-family: montez;
+
+    text-decoration: none;
+    color: rgb(173, 130, 77)
+}
+
+#Inicio #consulta img{
+    float: right;
+    margin-left: 500px;
+}
+
+#formulario {
+    position: absolute;
+    margin-top: 100px;
+    background: rgba(86, 185, 111, 0.363);
+    padding: 50px;
+    padding-bottom: 65px;
+}
+
+
+#formulario h1{
+    padding: 4px 0px;
+    position: absolute;
+    color: whitesmoke;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background: rgba(34, 88, 34, 0.781);
+}
+
+#formulario input{
+    text-align: center;
+    width: 200px;
+    height: 25px;
+    margin-left: 85px;
+}
+
+#formulario .boton{
+    margin-left: 30px;
+    width: 150px;
+    height: 35px;
+}
+
+
+
