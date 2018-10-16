@@ -4,7 +4,7 @@
 
 #menu {
     float: left;
-    margin-top: 510px ; /*30px arriba y abajo. auto en los lados para que se centre*/
+    margin-top: 555px ; /*30px arriba y abajo. auto en los lados para que se centre*/
     margin-left: 100px;
     padding-left: 130px;
     padding-right: 200px;
@@ -65,21 +65,24 @@ background-color: #434343}
 
 
 
-
+#imagenes {
+    float: left;
+}
 #imagenes .comple{
 
     position: absolute;
     width:100%;
-    height: 75%;
-    z-index: 0;
-   
+    height: 100%;
+    z-index: 0; 
 }
+
+
 
 #imagenes .aceite {
     position: absolute;
     padding-right: 1px;
     left: 820px;
-    top: 400px;
+    top: 430px;
     z-index: 1;
 }
 
